@@ -64,7 +64,7 @@ class DataDumper:
 source = 'connection string for the source '
 destination = 'connection string for the destination'
 source_table = 'source table'
-destination_table = 'tabla en destino'
+destination_table = 'destination table'
 
 migrator = DataDumper(source, destination, source_table, destination_table)
 migrator.dump_data(batch_size=1000)
